@@ -1,0 +1,2553 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StudentsAssessment
+</name>
+</assembly>
+<members>
+<member name="T:StudentsAssessment.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:StudentsAssessment.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:StudentsAssessment.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:StudentsAssessment.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:StudentsAssessment.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:StudentsAssessment.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:StudentsAssessment.Admindefault._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._lblWelcomeH">
+<summary>
+lblWelcomeH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._divDashboardC">
+<summary>
+divDashboardC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._lblAnnouncementH">
+<summary>
+lblAnnouncementH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._divAnnouncement1C">
+<summary>
+divAnnouncement1C control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._lblLatestContentH">
+<summary>
+lblLatestContentH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._divAnnouncement2C">
+<summary>
+divAnnouncement2C control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._Announcement2Holder">
+<summary>
+Announcement2Holder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Admindefault._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MessageFromAdmin._divMessage">
+<summary>
+divMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MessageFromAdmin._lblTypeText">
+<summary>
+lblTypeText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MessageFromAdmin._lblDateActivity">
+<summary>
+lblDateActivity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MessageFromAdmin._divMessageText">
+<summary>
+divMessageText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MessageFromAdmin._chkDonotShowAgain">
+<summary>
+chkDonotShowAgain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._divOption1">
+<summary>
+divOption1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._lnkHome">
+<summary>
+lnkHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._divOption2">
+<summary>
+divOption2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._lnkMyQB">
+<summary>
+lnkMyQB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._divOption3">
+<summary>
+divOption3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._lnkCreateAssessmt">
+<summary>
+lnkCreateAssessmt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._divOption4">
+<summary>
+divOption4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._lnkCommunityQB">
+<summary>
+lnkCommunityQB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._divOption5">
+<summary>
+divOption5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.AdminsMenu._lnkDataAnalytics">
+<summary>
+lnkDataAnalytics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:StudentsAssessment.AssessmentTableLengths.StaffMembers">
+ <summary>
+ For now, only varchar fields are included as they seem to be the only one for which length needs to be double-checked before 
+ saving anything into it
+ </summary>
+</member>
+<member name="F:StudentsAssessment._default._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._MainLinksControl1">
+<summary>
+MainLinksControl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._lblWelcomeH">
+<summary>
+lblWelcomeH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._divDashboardC">
+<summary>
+divDashboardC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._lblAnnouncementH">
+<summary>
+lblAnnouncementH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._divAnnouncement1C">
+<summary>
+divAnnouncement1C control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._lblLatestContentH">
+<summary>
+lblLatestContentH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._divAnnouncement2C">
+<summary>
+divAnnouncement2C control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._Announcement2Holder">
+<summary>
+Announcement2Holder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment._default._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="M:StudentsAssessment.general.GetConnectStringFromWebConfig">
+ <summary>
+ This returns the connection string it reads from web.config file
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:StudentsAssessment.general.GetTeacherSubjects(System.Int32)">
+ <summary>
+ Returns a list of subjects for this teacher with comma seperating them
+ </summary>
+ <param name="iTeacherID"></param>
+ <returns></returns>
+</member>
+<member name="M:StudentsAssessment.general.GetTeacherName(System.Int32)">
+ <summary>
+ Given the teacher ID, this function returns the teacher's name.  This is the
+ combination of teacher's first and last names
+ </summary>
+ <param name="iTeacherID"></param>
+ <returns></returns>
+</member>
+<member name="M:StudentsAssessment.general.GetTeacherClasses(System.Int32)">
+ <summary>
+ Returns a list of classes for this teacher with comma seperating them
+ </summary>
+ <param name="iTeacherID"></param>
+ <returns></returns>
+</member>
+<member name="F:StudentsAssessment.MainLinksControl._lblWelcome">
+<summary>
+lblWelcome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MainLinksControl._lnkTakeTest">
+<summary>
+lnkTakeTest control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MainLinksControl._lnkteachersLogin">
+<summary>
+lnkteachersLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.MainLinksControl._Linkbutton1">
+<summary>
+Linkbutton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divStandard1">
+<summary>
+divStandard1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkStandard1">
+<summary>
+lnkStandard1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divStandard2">
+<summary>
+divStandard2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkStandard2">
+<summary>
+lnkStandard2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divStandard3">
+<summary>
+divStandard3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkStandard3">
+<summary>
+lnkStandard3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divAnswertype3">
+<summary>
+divAnswertype3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkAnswertype3">
+<summary>
+lnkAnswertype3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divAnswertype2">
+<summary>
+divAnswertype2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkAnswertype2">
+<summary>
+lnkAnswertype2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divAnswertype4">
+<summary>
+divAnswertype4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkAnswertype4">
+<summary>
+lnkAnswertype4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divAnswertype1">
+<summary>
+divAnswertype1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkAnswertype1">
+<summary>
+lnkAnswertype1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtQuestionStem">
+<summary>
+txtQuestionStem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender2">
+<summary>
+TextBoxWatermarkExtender2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divMultipleChoices">
+<summary>
+divMultipleChoices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnChoiceA">
+<summary>
+rbtnChoiceA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceA">
+<summary>
+txtChoiceA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender1">
+<summary>
+TextBoxWatermarkExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnChoiceB">
+<summary>
+rbtnChoiceB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceB">
+<summary>
+txtChoiceB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender3">
+<summary>
+TextBoxWatermarkExtender3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnChoiceC">
+<summary>
+rbtnChoiceC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceC">
+<summary>
+txtChoiceC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender4">
+<summary>
+TextBoxWatermarkExtender4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnChoiceD">
+<summary>
+rbtnChoiceD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceD">
+<summary>
+txtChoiceD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender5">
+<summary>
+TextBoxWatermarkExtender5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divMultiChoices">
+<summary>
+divMultiChoices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._chkbtnChoiceA1">
+<summary>
+chkbtnChoiceA1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceA1">
+<summary>
+txtChoiceA1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender6">
+<summary>
+TextBoxWatermarkExtender6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._chkbtnChoiceB1">
+<summary>
+chkbtnChoiceB1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceB1">
+<summary>
+txtChoiceB1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender7">
+<summary>
+TextBoxWatermarkExtender7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._chkbtnChoiceC1">
+<summary>
+chkbtnChoiceC1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceC1">
+<summary>
+txtChoiceC1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender8">
+<summary>
+TextBoxWatermarkExtender8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._chkbtnChoiceD1">
+<summary>
+chkbtnChoiceD1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtChoiceD1">
+<summary>
+txtChoiceD1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender9">
+<summary>
+TextBoxWatermarkExtender9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divTrueFalse">
+<summary>
+divTrueFalse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnTrue">
+<summary>
+rbtnTrue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._rbtnFalse">
+<summary>
+rbtnFalse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._divShortAns">
+<summary>
+divShortAns control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._txtShortAns">
+<summary>
+txtShortAns control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._TextBoxWatermarkExtender10">
+<summary>
+TextBoxWatermarkExtender10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkbtnAddImage">
+<summary>
+lnkbtnAddImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkbtnAddExplanation">
+<summary>
+lnkbtnAddExplanation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.CreateQuestion._lnkCreateQuestion">
+<summary>
+lnkCreateQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divAddExplanation">
+<summary>
+divAddExplanation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._txtExplanation">
+<summary>
+txtExplanation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK">
+<summary>
+lnkOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel">
+<summary>
+lnkCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divAddImage">
+<summary>
+divAddImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._fupldImage">
+<summary>
+fupldImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK1">
+<summary>
+lnkOK1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel1">
+<summary>
+lnkCancel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divStandardFilter">
+<summary>
+divStandardFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._ddlStandards">
+<summary>
+ddlStandards control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK2">
+<summary>
+lnkOK2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel2">
+<summary>
+lnkCancel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divSubjectFilter">
+<summary>
+divSubjectFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._ddlSubjects">
+<summary>
+ddlSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK3">
+<summary>
+lnkOK3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel3">
+<summary>
+lnkCancel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divGradeFilter">
+<summary>
+divGradeFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._ddlGrades">
+<summary>
+ddlGrades control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK4">
+<summary>
+lnkOK4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel4">
+<summary>
+lnkCancel4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divQIDFilter">
+<summary>
+divQIDFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._ddlQIDs">
+<summary>
+ddlQIDs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK5">
+<summary>
+lnkOK5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel5">
+<summary>
+lnkCancel5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divQTypeFilter">
+<summary>
+divQTypeFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._ddlQTypes">
+<summary>
+ddlQTypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK6">
+<summary>
+lnkOK6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel6">
+<summary>
+lnkCancel6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._divSearchFilter">
+<summary>
+divSearchFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._rblSearchtypes">
+<summary>
+rblSearchtypes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._txtSearchTerm">
+<summary>
+txtSearchTerm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkOK7">
+<summary>
+lnkOK7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lnkCancel7">
+<summary>
+lnkCancel7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBOtherfeatures._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkGradefilter">
+<summary>
+lnkGradefilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkSubjectfilter">
+<summary>
+lnkSubjectfilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkStandardfilter">
+<summary>
+lnkStandardfilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkQIDfilter">
+<summary>
+lnkQIDfilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkQuestiontype">
+<summary>
+lnkQuestiontype control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkSearch">
+<summary>
+lnkSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QBFilters._lnkShowall">
+<summary>
+lnkShowall control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._lnkCreateQuestion">
+<summary>
+lnkCreateQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._QBFilters1">
+<summary>
+QBFilters1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._divQuestionsList">
+<summary>
+divQuestionsList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._QuestionsListHolder">
+<summary>
+QuestionsListHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._divOtherfeatures">
+<summary>
+divOtherfeatures control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._QBOtherFeatures1">
+<summary>
+QBOtherFeatures1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._divCreateQ_Heading">
+<summary>
+divCreateQ_Heading control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._divCreateQuestionArea">
+<summary>
+divCreateQuestionArea control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._CreateQuestion1">
+<summary>
+CreateQuestion1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.Questionbank._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._divQuestionNo">
+<summary>
+divQuestionNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._lnkEditQuestion">
+<summary>
+lnkEditQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._lnkDeleteQuestion">
+<summary>
+lnkDeleteQuestion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._lnkDuplicateQID">
+<summary>
+lnkDuplicateQID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._lnkAddtoAssessment">
+<summary>
+lnkAddtoAssessment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._divQSnapshot">
+<summary>
+divQSnapshot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._divEditQSnapshot">
+<summary>
+divEditQSnapshot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._txtQuestionSnapshot">
+<summary>
+txtQuestionSnapshot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.QuestionBox._divStandard">
+<summary>
+divStandard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:StudentsAssessment.QuestionBox.QuestionSnapshot">
+ <summary>
+ This is the regular displayed question.  Note that this will appear truncated if >20 chars
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:StudentsAssessment.QuestionBox.EditedQuestion">
+ <summary>
+ This is the edited question (in EDIT mode).  This is in its full form.
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:StudentsAssessment.SiteHeader._lblHeaderText">
+<summary>
+lblHeaderText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.SiteHeader._lblPageDesc">
+<summary>
+lblPageDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblTeachername">
+<summary>
+lblTeachername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._divProfile">
+<summary>
+divProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtFirstname">
+<summary>
+txtFirstname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtLastname">
+<summary>
+txtLastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtDesc">
+<summary>
+txtDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtJoindate">
+<summary>
+txtJoindate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._CalendarExtender1">
+<summary>
+CalendarExtender1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._txtTermdate">
+<summary>
+txtTermdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._CalendarExtender2">
+<summary>
+CalendarExtender2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._chkblPT">
+<summary>
+chkblPT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._chkblAdmin">
+<summary>
+chkblAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._chkblActive">
+<summary>
+chkblActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblTeachername4">
+<summary>
+lblTeachername4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._SchoolsBelongingHolder">
+<summary>
+SchoolsBelongingHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblTeachername1">
+<summary>
+lblTeachername1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._ClassesHolder">
+<summary>
+ClassesHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblTeachername2">
+<summary>
+lblTeachername2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._SubjectsHolder1">
+<summary>
+SubjectsHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblTeachername3">
+<summary>
+lblTeachername3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._StudentsHolder1">
+<summary>
+StudentsHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lnkSaveProfile">
+<summary>
+lnkSaveProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherProfile._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._divCurrentlyActiveClass">
+<summary>
+divCurrentlyActiveClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._divActivateClass">
+<summary>
+divActivateClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._ddlClasses">
+<summary>
+ddlClasses control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lnkActivateClass">
+<summary>
+lnkActivateClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lblActiveClass">
+<summary>
+lblActiveClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._divOnlyclass">
+<summary>
+divOnlyclass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lblActiveClass1">
+<summary>
+lblActiveClass1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._StudentsAlreadyInHolder">
+<summary>
+StudentsAlreadyInHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lblActiveClass2">
+<summary>
+lblActiveClass2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._StudentsNOTInHolder">
+<summary>
+StudentsNOTInHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lnkAddStudents">
+<summary>
+lnkAddStudents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._lnkRemoveStudents">
+<summary>
+lnkRemoveStudents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherClass._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._spnTeacherName">
+<summary>
+spnTeacherName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._lnkLogout">
+<summary>
+lnkLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._lnkClass">
+<summary>
+lnkClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._lnkSubject">
+<summary>
+lnkSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._lnkEditProfile">
+<summary>
+lnkEditProfile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLoggedinPanel._lblAdminLoginMessage">
+<summary>
+lblAdminLoginMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._divOption1">
+<summary>
+divOption1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._lnkHome">
+<summary>
+lnkHome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._divOption2">
+<summary>
+divOption2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._lnkMyQB">
+<summary>
+lnkMyQB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._divOption3">
+<summary>
+divOption3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._lnkCreateAssessmt">
+<summary>
+lnkCreateAssessmt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._divOption4">
+<summary>
+divOption4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._lnkCommunityQB">
+<summary>
+lnkCommunityQB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._divOption5">
+<summary>
+divOption5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersMenu._lnkDataAnalytics">
+<summary>
+lnkDataAnalytics control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._TeachersPanel1">
+<summary>
+TeachersPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._divNotLoggedIn1">
+<summary>
+divNotLoggedIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._TeachersMenu1">
+<summary>
+TeachersMenu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._divCurrentlyActiveSubject">
+<summary>
+divCurrentlyActiveSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._divActivateSubject">
+<summary>
+divActivateSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._ddlSubjects">
+<summary>
+ddlSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lnkActivateSubject">
+<summary>
+lnkActivateSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lblActiveSubject">
+<summary>
+lblActiveSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._divOnlysubject">
+<summary>
+divOnlysubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lblActiveSubject1">
+<summary>
+lblActiveSubject1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._ClassesHolderLeft">
+<summary>
+ClassesHolderLeft control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lblActiveSubject2">
+<summary>
+lblActiveSubject2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._ClassesHolderRight">
+<summary>
+ClassesHolderRight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lnkAddSubjects">
+<summary>
+lnkAddSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._lnkRemoveSubject">
+<summary>
+lnkRemoveSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeacherSubject._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.UnderConstruction._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.UnderConstruction._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.UnderConstruction._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.UnderConstruction._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._SiteHeader1">
+<summary>
+SiteHeader1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._lnkTeacherLogin">
+<summary>
+lnkTeacherLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._lnkReturn">
+<summary>
+lnkReturn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:StudentsAssessment.TeachersLogin._SiteFooter">
+<summary>
+SiteFooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

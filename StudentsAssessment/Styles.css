@@ -1,0 +1,569 @@
+﻿/*START - Styles for whole web application*/
+body{
+    margin:0;
+    background-color:beige;
+}
+
+/*The area where you have sections on the page*/
+#Content{
+    margin-left:100px;
+    margin-top:200px;
+    margin-right:100px;
+    /*background-color:#b4be99;*/
+}
+h1 .header1,h3 .header1{
+    text-align:center;
+    letter-spacing:2px;
+}
+/*Area on a page where messages such as error messages and other status messages are displayed to user*/
+.Statusarea
+{
+    font-size:15px;
+    font-weight:bold;
+    color:#b200ff;
+}
+
+/*ALL text box controls bearing this class in the site will have flat borders, including Multiline (textareas)*/
+.txtFlatBorders
+{
+    border: 1px solid mediumpurple;
+}
+
+/*********************************************************************************************************/
+
+/*SiteHeader.ascx - Header for website*/
+header{
+    /*Non-sticky
+    background-color:#bbd775;
+    margin-top:-1.5em;*/
+
+ /*Sticky*/
+     position:fixed;
+      margin-top:-1.5em;
+   left:0px;
+   top:0px;
+  height:7em;
+   width:100%;
+   background:#bbd775;
+   text-align:center;
+    font-weight:bold;
+    font-style:italic;
+}
+
+/*SiteFooter.ascx - Footer for website*/
+footer{
+    /*Non-sticky*/
+    /*background-color:#bbd775;
+    height:3em;
+    text-align:center;
+    font-weight:bold;
+    font-style:italic;
+    margin-top:90%;
+    */
+
+    /*Sticky*/
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:3em;
+   width:100%;
+   background:#bbd775;
+   text-align:center;
+    font-weight:bold;
+    font-style:italic;
+}
+
+#divConstructionMsg{
+    border:2px solid #b69f9f;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    width:800px;
+    height:300px;
+    margin-left:200px;
+    font-size:20px;
+    font-weight:bold;
+    padding-top:150px;
+    padding-left:50px;
+}
+    
+/*END - Styles for whole web application*/
+
+/*********************************************************************************************************/
+
+/*START - TeachersLogin.aspx - Teachers log-in page*/
+#tblLogin{
+    width:300px;
+    margin-top:20px;
+}
+
+#tblLogin_heading{
+    height:25px;background-color:mediumpurple;color:white;margin-top:-20px;
+    width:400px; /*Same width as for #tblLogin*/
+}
+
+#tblLogin_boxaround{
+    border:2px solid #b69f9f;
+    width:400px;
+    height:200px;
+    margin-top:100px;
+    margin-left:500px;; /*moves WHOLE BOX on the page HORIZONTALLY*/
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+}
+
+/*START: Teachers/Admin login screen
+.Loginpanel
+{
+    width:400px;
+    margin-left:25%;
+}*/
+/*END: Teachers/Admin login screen*/
+
+/*To-do
+    Make login table controls widths adjustable from here - currently inline width specified*/
+
+/*END - TeachersLogin.aspx - Teachers log-in page*/
+
+/*********************************************************************************************************/
+
+/*START - default.aspx - RHS dynamic area*/
+#divMainDashboard{
+	background:gray;
+    width:800px;
+	height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+}
+	
+#divMainDashboard_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+	
+#divAnnouncement1{
+	background:gray;
+    height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+    width: 400px; 
+}
+
+#divAnnouncement1_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+	
+#divAnnouncement2{
+	background:gray;
+    height:250px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    border:2px solid #b69f9f;
+    width: 400px; 
+    padding:10px;
+}
+
+#divAnnouncement2_heading{
+    height:35px;background-color:mediumpurple;text-align:center;border:solid 2px white;
+}
+/*The whole table housing the dashboard and the two announcement areas*/
+#tblDynamicInfo{
+    width:100px;
+    margin-left:450px;
+    margin-top:-450px;
+}
+
+/*div scrollbar*/
+#divDashboardC,#divAnnouncement1C,#divAnnouncement2C{
+    overflow-y:auto; /*Auto makes it appear only when overflowing of text occurs in the area*/
+    height:220px;
+}
+/*END - default.aspx - RHS dynamic area*/
+
+/*********************************************************************************************************/
+
+/*START- TeachersLoggedinPanel.ascx*/
+#divTeachersLoginInfo,#divAdminsLogin{
+		/*background-color:lightgray;*/
+        margin-top:-75px;
+		margin-left:65%;
+        width:300px;
+        top:-10px;
+}
+
+#divLoggedinPanel{
+    margin-left:30%; /*Same as for divTeachersLoginInfo */
+}
+#divNotLoggedIn1
+{
+    margin-left:30%; /*Same as for divTeachersLoginInfo */
+    width:350px;
+}
+
+#divTeachersInfo table
+{
+	width:350px; /*Same width as divTeachersInfo*/
+}
+#divTeachersInfo table tr td
+{
+	background-color:black;
+	color:#fff;
+	width:10px;
+}
+/*END- TeachersLoggedinPanel.ascx*/
+
+/*********************************************************************************************************/
+
+/*START- MainLinkscontrol.ascx*/
+#divMainLinksControl{
+	background:lightgray;
+	height:300px;
+	width:175px;
+		
+}
+/*END- MainLinkscontrol.ascx*/
+
+/*********************************************************************************************************/
+
+/*START- MainLinkscontrol.ascx*/
+#divTeachersMenuMainscreen{
+	background:lightgray;
+	height:400px;
+	width:185px;
+	margin-left:200px;
+	margin-top:-250px;
+     text-align:center;
+}
+
+#divTeachersMenuQuestionbank{
+	background:lightgray;
+	height:400px;
+	width:185px;
+	margin-left:200px;
+	margin-top:-250px;
+    text-align:center;
+}
+
+/*END- MainLinkscontrol.ascx*/
+	
+/*********************************************************************************************************/
+
+
+/*START: TeacherProfile.aspx - Teachers Profile Page*/
+#divProfile
+{
+    border:2px solid mediumpurple;
+    width:605px;
+}
+#PnlTeacherProfile{
+    height:1000px;
+}
+.pnlAdminProfile{
+    margin-left:650px;
+    width:300px;
+    height:500px;
+    margin-top:-650px;
+    background-color:Gray;
+    color:white;
+    text-align:center;
+}
+
+/*Area listing teachers in the admin panel*/
+#divTeacherProfileHolder
+{
+   padding-top:10px;
+}
+#LoadTeacherProfileButton{
+    margin-top:-100px;
+    background:#fff;
+}
+/*END: TeacherProfile.aspx - Teachers Profile Page*/
+
+/*********************************************************************************************************/
+
+/*START: TeacherClasses.aspx - Teachers Classes Page*/
+#divCurrentlyActiveClass
+{
+    margin-top:-45px;
+    /*background-color:dimgray;*/
+    width:400px;
+    border:1px solid gray;
+    padding-left:5px;
+}
+.TeacherClassesPanel{
+    margin-left:50px;
+    width:500px;
+    margin-top:-50px;
+}
+
+.TClassesStudentsPanel{
+   margin-left:600px;
+    width:350px;
+    margin-top:-200px;
+}
+
+#tblTeacherClass
+{
+    width:400px;
+}
+
+#divListStudents
+{
+    width:200px;
+    background-color:dimgray;
+}
+
+/*Only the gray colored part of "Students Already taught by" list*/
+#divListStudentsAlreadyTaughtBy
+{
+    width:350px;
+    background-color:dimgray;
+    margin-top:-16px;
+}
+
+/*Only the gray colored part of the admin panel*/
+#divListOfTeachersinAdminPanel{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListClassesTaught_TeacherClass{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListClassesTaught_TeacherSubject
+{
+    width:300px;
+    background-color:dimgray;
+}
+
+#divListStudentsTaught{
+    width:300px; 
+    /*background-color:lightgray;*/
+}
+
+#divListSubjects
+{
+    width:300px;
+    background-color:dimgray;
+}
+
+/*Only the gray colored part of "Subjects Already taught by" list*/
+#divListSSubjectsAlreadyTaughtBy
+{
+    width:300px;
+    background-color:dimgray;
+    margin-top:-16px;
+}
+/*END: TeacherClasses.aspx - Teachers Classes Page*/
+
+/*********************************************************************************************************/
+
+/*START: TeacherSubjects.aspx - Teachers Subjects Page*/
+#divCurrentlyActiveSubject
+{
+    margin-top:-45px;
+    /*background-color:dimgray;*/
+    width:400px;
+    border:1px solid gray;
+    padding-left:5px;
+}
+/*END: TeacherSubjects.aspx - Teachers Subjects Page*/
+
+
+
+
+/*START: CreateQuestion.ascx - Question Bank*/
+/*table width is controlled by sizes of text boxes in its column.  Change the width of the longest textbox and
+    see that the table width is changed as well
+*/
+#tblQuestion{
+		border-color:#fff;
+        background-color:gray;
+    }
+	
+	#tblQuestion tr td{
+		color:#fff;
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	#tblQuestion .trHeading{
+		height:30px;
+	}
+	.divStandard
+	{
+		background-color:dimgray;
+	}
+    .divAnswertype
+	{
+		background-color:dimgray;
+	}
+    .divCreateQActions{
+        background-color:forestgreen;
+    }
+	#txtQuestionStem
+	{
+		width:500px;
+		height:100px;
+		text-align:center;
+		font-weight:bold;
+		background-color:gray;
+	}
+	#tblAnswers{
+		margin-left:25px;
+		border:2px solid #fff;
+	}
+	.divAnswer{
+		border:2px solid #fff;
+		background-color:gray;
+	}
+    /*The whole page*/
+    #tblQuestionbank{
+        margin-left:-150px;
+    }
+
+    /*Create Question heading part only.  Part of its styling is inline in Questionbank.aspx
+    #divCreateQ_Heading{
+        margin-top:10px;
+    }*/
+    /*The area next between filter buttons and the Create questions panel - containing the
+        list of questions
+    */
+    #divQuestionsList{
+        background-color:lightgray;
+        margin-top:-270px;
+        margin-left:115px;
+        height:600px;
+        width:460px;
+        overflow-x:hidden;
+        overflow-y:auto; /*Auto makes it appear only when overflowing of text occurs in the area*/
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:10px;
+    }
+
+   #divOtherfeatures{
+        background-color:lightgray;
+        margin-top:-225px;
+        margin-left:100px;
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:10px;
+         height:600px;
+   }
+    /*The background area BEHIND the "Create Question" only.  The table itself is controlled
+        by tblQuestion style
+    */
+    #divCreateQuestionArea{
+        background-color:lightgray;
+        text-align:center;
+        width:565px;
+        margin-top: 0px;
+    }
+
+    #divListofStandards{
+        overflow-y:auto; /*Auto makes it appear only when overflowing of text occurs in the area*/
+        height:100px;
+    }
+
+    #divListofAnstypes{
+        overflow-y:auto; /*Auto makes it appear only when overflowing of text occurs in the area*/
+        height:125px;
+    }
+
+    .watermarked{
+        color:lightgray;
+    }
+/*END: CreateQuestion.ascx - Question Bank*/
+
+/*************************************************************************************************/
+
+
+    #tblQuestionBox
+	{
+		border-color:#fff;
+		border-size:2px;
+        margin-left:140px;
+	}
+	
+	#tblQuestionBox tr td{
+		background-color:lightgray;
+		text-align:center;
+		font-weight:bold;
+	}
+	
+	/*Edit*/
+	#tblQuestionBox tr td:nth-child(2){
+		background-color:dimgray;
+		text-align:center;
+	}
+
+    /*Trash*/
+	#tblQuestionBox tr td:nth-child(3){
+		background-color:dimgray;
+		text-align:center;
+	}
+	
+    /*Duplicate QID button*/
+	#tblQuestionBox tr td:nth-child(4){
+		background-color:dimgray;
+		text-align:center;
+	}
+
+    /*Add to Assessment button*/
+	#tblQuestionBox tr td:nth-child(5){
+		background-color:dimgray;
+		text-align:center;
+	}
+
+	/*Only the first row*/
+	#tblQuestionBox tr td:nth-child(1){
+		background-color:lightgray;
+		text-align:center;
+	}
+
+	/*Question ID No.*/
+	#tblQuestionBox tr:nth-child(1) td:nth-child(1){
+		background-color:dimgray;
+		text-align:center;
+        color:#fff;
+	}
+	
+	/*Standard*/
+	#tblQuestionBox tr:nth-child(3) td:nth-child(1){
+		background-color:dimgray;
+		text-align:center;
+        color:#fff;
+	}
+
+    /*The question box on the page itself as opposed to its constituents
+    #divQuestionbox{
+        margin-top:-175px;
+    }*/
+
+     .divQuestionActions{
+        background-color:forestgreen;
+        color:red;
+    }
+/*END: QuestionBox.ascx - Question Bank*/
+
+/*************************************************************************************************/
+
+/*START: QBSideButtons.ascx - Question Bank*/
+
+    #tblQuestionFilter tr td, #tblGeneralButtons tr td{
+        background-color:#000;
+        color:#fff;
+        font-weight:bold;
+        text-align:center;
+        margin-top:20px;
+    }
+
+    
+
+/*END: QBSideButtons.ascx - Question Bank*/
+
+/*ADMIN PANEL*/
+#divAdminPanel{
+    border:2px solid lightgray;
+    width:400px;
+    border-radius:2%; /*CSS3 feature - Serves to create round corner*/
+    padding:20px;
+}
